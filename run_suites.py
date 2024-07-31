@@ -31,7 +31,11 @@ default_conifg = {
         "llama_65B": 1,
         "gpt_175B": 1,
     },
-    "coll_comm_check": {"all_reduce": 1, "all_gather": 1, "muti_all_reduce": 1},
+    "coll_comm_check": {
+       "all_reduce": 1, 
+       "all_gather": 1, 
+       "muti_all_reduce": 1
+    },
 }
 
 
