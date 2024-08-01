@@ -299,7 +299,7 @@ class WorkloadApplyer:
             output_tensor, input_tensor, group=group
         )
 
-    @bench_logger.log_timing("comp")
+    @bench_logger.log_timing("comm")
     def _apply_computation(self, item):
         if self.skip_computation:
             return
